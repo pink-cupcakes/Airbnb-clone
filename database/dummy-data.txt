@@ -1,0 +1,5 @@
+INSERT INTO reservations (listid, dates)
+SELECT
+  floor(random()*5000) + 5000,
+  timestamp '2006-01-10 00:00:00' + random() * (timestamp '2016-12-31 12:00:00' - timestamp '2006-01-10 00:00:00')
+from generate_series(1, 10000000) s(i);
