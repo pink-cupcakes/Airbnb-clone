@@ -3,6 +3,12 @@ config/development.json
 config/production.json
 config/staging.json
 config/test.json
+dummy.csv
+dummy2.csv
+smallerDummyData.json
+awsConfig.json
+config.js
+CodeDeployDemo-Trust.json
 
 # OS X
 .DS_Store
