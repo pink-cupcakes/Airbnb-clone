@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize('airbnb_reservations', 'andy', 'herroworld', {
-  host: 'localhost',
+  host: 'aws-deploy.cqsln6wxzr9e.us-east-2.rds.amazonaws.com',
   protocol: 'postgres',
   logging: false,
   dialect: 'postgres'
