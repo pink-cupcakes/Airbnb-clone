@@ -33,7 +33,7 @@
 
 // Load the AWS SDK for Node.js
 var AWS = require('aws-sdk');
-// AWS.config.update({region:'us-west-1'});
+AWS.config.update({region:'us-west-1'});
 // AWS.config.update({accessKeyId: "AKIAIQ3QZKRFTJZ3ONSA",
 //   secretAccessKey: "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", region: 'us-west-2'});
 // Set the region 
