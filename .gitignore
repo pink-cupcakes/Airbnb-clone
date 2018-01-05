@@ -6,6 +6,7 @@ config/test.json
 dummy.csv
 dummy2.csv
 smallerDummyData.json
+awsConfig.json
 config.js
 CodeDeployDemo-Trust.json
 
