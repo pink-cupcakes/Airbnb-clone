@@ -24,7 +24,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(apm.middleware.express());
 
 // Create an SQS service object
-AWS.config.loadFromPath(__dirname + '/../awsConfig.json');
+// AWS.config.loadFromPath(__dirname + '/../awsConfig.json');
+AWS.config.update({region:'us-east-1'});
 var sqs = new AWS.SQS({apiVersion: '2012-11-05'});
 
 var waitingSQS = false;
