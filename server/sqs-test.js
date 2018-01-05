@@ -39,8 +39,6 @@ var AWS = require('aws-sdk');
 // Set the region 
 
 // Create an SQS service object
-AWS.config.loadFromPath(__dirname + '/../awsConfig.json');
-// AWS.config.update({region: 'us-west-1'});
 var sqs = new AWS.SQS({apiVersion: '2012-11-05'});
 
 
